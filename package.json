@@ -1,0 +1,25 @@
+{
+  "name": "navigart-colreg",
+  "version": "0.1.0",
+  "description": "Interactive maritime radar and AIS collision avoidance simulator",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/test_engine.js",
+    "test:browser": "node test/test_browser.js",
+    "build": "node scripts/build_bundle.js"
+  },
+  "keywords": [
+    "colreg",
+    "radar",
+    "ais",
+    "maritime",
+    "simulator",
+    "sailing"
+  ],
+  "author": "NavigArt (http://ahoy.navigart.net)",
+  "license": "CC-BY-NC-4.0",
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}
